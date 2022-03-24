@@ -1,13 +1,12 @@
 import os
 
 rss = {
-#'fakty': 'http://fakty.ua/rss_feed/science',
-#'skynews': 'https://feeds.skynews.com/feeds/rss/technology.xml',
+'skynews': 'https://feeds.skynews.com/feeds/rss/technology.xml',
 'nytimestech': 'https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/technology/rss.xml',
 'nytimesscience': 'https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/science/rss.xml'
 }
 
-
+###
 def download():
     files = ''
     for k in rss.keys():
