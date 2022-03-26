@@ -9,4 +9,4 @@ import subprocess
 form = cgi.FieldStorage()
 query = form.getfirst("query", "Query not defined")
 src = form.getfirst("src", "Source not defined")
-os.system('"./cgi-bin/test_json.sh" %s %s' % (query, src))
+os.system(f'./cgi-bin/test_json.sh {query} {src}')
