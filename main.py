@@ -14,6 +14,6 @@ def main():
 if __name__ == '__main__':
     # main()
     download()
-    convert_to_json_edit()
+    convert_to_json_kibana_console_edition()
 
     
