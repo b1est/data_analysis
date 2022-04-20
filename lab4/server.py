@@ -7,4 +7,4 @@ import os
 server_address = ("", 8000)
 http_server = HTTPServer(server_address, CGIHTTPRequestHandler)
 http_server.serve_forever()
-os.system('chmod a+x /cgi-bin/*.py')
+os.system('sudo chmod a+x /cgi-bin/*.py')
