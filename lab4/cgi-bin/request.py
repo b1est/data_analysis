@@ -39,7 +39,7 @@ print("<html>")
 print("<head>")
 print('<meta http-equiv="Content-Type" charset=utf-8" />')
 print("</head>")
-print ("<body bgcolor=#ccffff>")
+print ("<body bgcolor=#66ff99>")
 print ("<b>Found: "+str(len(title))+"</b><hr><ol>")
 for i in range(len(title)):
     doc_ind=i+1
