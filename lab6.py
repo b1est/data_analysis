@@ -31,3 +31,6 @@ def agregation_file_edition():
         
         for i in range(len(days)): 
             f.write(days[i]+";"+count[i]+"; \n")
+
+if __name__ == "__main__":
+    agregation_file_edition()
